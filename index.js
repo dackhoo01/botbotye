@@ -12,6 +12,10 @@ client.on('message', (message) => {
     message.reply('pong');
   }
 
+  if(message.content === '숭구리당당') {
+    message.reply('으로 오세요!');
+  }
+
   if(message.content.startsWith('!전체공지')) {
     if(checkPermission(message)) return
     if(message.member != null) { // 채널에서 공지 쓸 때

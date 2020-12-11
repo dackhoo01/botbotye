@@ -8,8 +8,8 @@ client.on('ready', () => {
 });
 
 client.on('message', (message) => {
-  if(message.content === 'ping') {
-    message.reply('pong');
+  if(message.content === '핑') {
+    message.reply('99999999999999999ms');
   }
 
   if(message.content === '숭구리당당') {
